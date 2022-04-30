@@ -47,6 +47,9 @@ class THECARZONE_API UVehicleDatabase : public UGameInstanceSubsystem
 	
 	UFUNCTION(BlueprintCallable)
     TSubclassOf<AActor> GetVehiclePaperDollByID(TEnumAsByte<VehicleID> ID);
+
+	UFUNCTION(BlueprintCallable)
+	TSubclassOf<APawn> GetVehiclePawnByID(TEnumAsByte<VehicleID> ID);
 	
 	private:
 	

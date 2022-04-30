@@ -61,6 +61,28 @@ TSubclassOf<AActor> UVehicleDatabase::GetVehiclePaperDollByID(TEnumAsByte<Vehicl
 	return nullptr;
 }
 
+TSubclassOf<APawn> UVehicleDatabase::GetVehiclePawnByID(TEnumAsByte<VehicleID> ID)
+{
+	if(IsValid(m_Database) == false)
+	{
+		return nullptr;
+	}
+
+	FString context_string;
+	TArray<FName> RowNames = m_Database->GetRowNames();
+
+	for (const auto& name : RowNames )
+	{
+		FVehicleDataRow* row = m_Database->FindRow<FVehicleDataRow>(name, context_string);
+		if ( row->CommonVehicleDataRow.ID == ID )
+		{
+			return row->Vehicle;
+		}
+	}
+	
+	return nullptr;
+}
+
 void UVehicleDatabase::LoadDatabase()
 {
 	m_Database = LoadObject<UDataTable>(nullptr, TABLE_VEHICLE_DATABASE);
