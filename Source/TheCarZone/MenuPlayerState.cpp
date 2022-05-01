@@ -8,6 +8,9 @@
 
 void AMenuPlayerState::SetVehicleData(FVehicleData inVehicleData)
 {
+	if(HasAuthority() == false)
+		return;
+	
 	VehicleData = inVehicleData;
 	
 	FString id_name = "none";
