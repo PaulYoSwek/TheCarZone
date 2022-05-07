@@ -6,3 +6,4 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/GoodFolderStructure/Blueprints/Gamemodes/MainGameMode/MainGameGameMode.MainGameGameMode
 /Game/GoodFolderStructure/Blueprints/Gamemodes/MainGameMode/MainGamePalyerController.MainGamePalyerController
 /Game/GoodFolderStructure/Blueprints/Gamemodes/MainGameMode/MainGamePlayerState.MainGamePlayerState
+/Game/GoodFolderStructure/Levels/MainGameLevel.MainGameLevel
