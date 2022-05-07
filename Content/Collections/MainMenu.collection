@@ -3,4 +3,5 @@ Type:Static
 Guid:7629DFCF-452B-1E0F-B2BE-43A54FA31327
 ParentGuid:00000000-0000-0000-0000-000000000000
 
+/Game/GoodFolderStructure/Blueprints/Gamemodes/MainMenuGameMode/MainMenuPlayerState.MainMenuPlayerState
 /Game/GoodFolderStructure/Blueprints/Gamemodes/MainMenuGameMode/MenuSlot.MenuSlot
