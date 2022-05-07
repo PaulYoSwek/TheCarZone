@@ -7,3 +7,4 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/GoodFolderStructure/Blueprints/Gamemodes/MainMenuGameMode/MainMenuPlayerController.MainMenuPlayerController
 /Game/GoodFolderStructure/Blueprints/Gamemodes/MainMenuGameMode/MainMenuPlayerState.MainMenuPlayerState
 /Game/GoodFolderStructure/Blueprints/Gamemodes/MainMenuGameMode/MenuSlot.MenuSlot
+/Game/MainMenuFolder/MainMenuGameMode.MainMenuGameMode
